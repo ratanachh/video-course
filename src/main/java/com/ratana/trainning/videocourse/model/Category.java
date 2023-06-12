@@ -2,7 +2,6 @@ package com.ratana.trainning.videocourse.model;
 
 
 import lombok.*;
-
 import javax.persistence.*;
 
 @Data

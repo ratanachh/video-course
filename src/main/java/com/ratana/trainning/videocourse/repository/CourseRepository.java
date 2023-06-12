@@ -1,9 +1,9 @@
 package com.ratana.trainning.videocourse.repository;
 
-import com.ratana.trainning.videocourse.model.Category;
+import com.ratana.trainning.videocourse.model.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CategoryRepository extends JpaRepository<Category, Integer> {
+public interface CourseRepository extends JpaRepository<Course, Long> {
 }
