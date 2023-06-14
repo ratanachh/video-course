@@ -6,3 +6,4 @@ run:
 clean:
 	docker-compose down
 	sudo rm -rf db
+	mvn clean
